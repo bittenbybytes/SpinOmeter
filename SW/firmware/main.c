@@ -311,8 +311,8 @@ void interrupt isr()
 #define SDO LATCbits.LATC7
 #define SDO_TRIS TRISCbits.TRISC7
 
-#define SDI LATBbits.LATB7
-#define SDI_TRIS TRISBbits.TRISB7
+#define SDI PORTBbits.RB4
+#define SDI_TRIS TRISBbits.TRISB4
 
 void initSPI()
 {
